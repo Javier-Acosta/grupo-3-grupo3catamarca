@@ -1,0 +1,40 @@
+.login{
+    margin: 0 auto;
+}
+.color-boton{
+    border: none;
+    background-color: #15af0a;
+    padding: 10px 40px;
+}
+.boton{
+    text-align: center;
+}
+.link{
+    text-align: center;
+    color: red;
+}
+.imgLogo{
+    margin-bottom: 50px ;
+}
+.TituloSesion{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.OlvContr{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.BordeLogin{
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 15px;
+}
+.icon{
+    margin-right: 10px;
+}
+.bor{
+    border-radius: 10px;
+    display: flex;
+    
+}
