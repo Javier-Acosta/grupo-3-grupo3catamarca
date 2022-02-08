@@ -65,7 +65,7 @@
     }
     
     .col-md-6 {
-        width: 60%;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -98,8 +98,8 @@
     }
     
     .logoMonedas {
-        display: flex;
-        width: 50%;
+        border-radius: 100%;
+        width: 150px;
     }
     
     .hdYpro {
@@ -160,4 +160,100 @@
     .boton-registro {
         text-align: center;
         margin-top: 30px;
+    }
+    
+    .iqrUHq {
+        position: absolute;
+        top: 6vw;
+        left: 6vw;
+        width: 1351px px;
+        height: 590px;
+        transform: rotate( -31deg);
+        z-index: -1;
+        background: rgb(52, 51, 72);
+        border-radius: 400px;
+    }
+    
+    .jKPYKI {
+        margin: 0px 0px 1rem;
+        font-size: 1.2rem;
+        color: rgb(52, 51, 72);
+        text-align: center;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    
+    @media screen and (min-width: 992px) {
+        .jKPYKI {
+            margin: 0px 0px 1rem;
+            font-size: 1.7rem;
+            text-align: left;
+        }
+    }
+    
+    .hCDXlO {
+        display: block;
+        margin: 0px 0px 0.8rem;
+        font-size: 0.6rem;
+        letter-spacing: 1.18px;
+        color: rgb(106, 117, 135);
+    }
+    
+    .jEObfa {
+        width: 300px;
+        bottom: 40px;
+        max-width: initial;
+    }
+    
+    .fpdENk {
+        width: 50%;
+        margin: 0px auto;
+    }
+    
+    .cPEkng {
+        margin: 0px 0px 5rem;
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+        text-align: center;
+        color: rgb(106, 117, 135);
+    }
+    
+    @media screen and (min-width: 992px) {
+        .cPEkng {
+            font-size: 0.7rem;
+            text-align: left;
+        }
+    }
+    
+    .cPEkng {
+        margin: 0px 0px 3rem;
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+        text-align: center;
+        color: rgb(106, 117, 135);
+    }
+    
+    .bnFaLw {
+        position: relative;
+        padding: 8.8rem 0px;
+    }
+    
+    .hsmPs {
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        max-width: 30rem;
+        margin: 0px auto 6rem;
+    }
+    
+    .gyCxwS {
+        width: 7rem;
+        height: auto;
+    }
+    
+    .hdKmNU {
+        width: 7rem;
+        height: auto;
     }
