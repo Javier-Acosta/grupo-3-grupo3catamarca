@@ -30,12 +30,11 @@
                             "src/assets"
                         ],
                         "styles": [
+                            "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
                             "src/styles.css",
                             "src/assets/b4/css/bootstrap.min.css",
-                            "src/assets/font-awesome/css/font-awesome.min.css"
-
-
-
+                            "src/assets/font-awesome/css/font-awesome.min.css",
+                            "node_modules/font-awesome/css/font-awesome.css"
                         ],
                         "scripts": [
                             "src/assets/jquery/jquery.slim.min.js",
@@ -103,6 +102,7 @@
                             "src/assets"
                         ],
                         "styles": [
+                            "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
                             "src/styles.css"
                         ],
                         "scripts": []

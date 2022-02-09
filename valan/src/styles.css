@@ -3,6 +3,8 @@
     body {
         background-color: rgb(255, 255, 255);
         color: rgb(27, 23, 23) !important;
+        height: 100%;
+        margin: 0;
     }
     
     hr {
@@ -257,3 +259,5 @@
         width: 7rem;
         height: auto;
     }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
