@@ -37,6 +37,12 @@
      flex-direction: column;
  }
  
+ @media screen and (min-width: 992px) {
+     .bcJmhM {
+         flex-direction: row;
+     }
+ }
+ 
  element.style {
      transform: perspective(2000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
  }
@@ -54,23 +60,6 @@
      flex: 1 1 0%;
  }
  
- .hdYpro {
-     display: flex;
-     flex-flow: column wrap;
-     -webkit-box-pack: justify;
-     justify-content: space-between;
-     max-width: 117rem;
-     padding: 0px 2rem;
-     margin: 0px auto;
- }
- 
- @media screen and (min-width: 992px) {
-     .hdYpro {
-         flex-direction: row;
-         padding: 0px 1.5rem;
-     }
- }
- 
  .iuAwuj {
      display: none;
      padding: 4rem 0px;
@@ -80,23 +69,6 @@
      .iuAwuj {
          padding: 11rem 0px;
          display: block;
-     }
- }
- 
- .hdYpro {
-     display: flex;
-     flex-flow: column wrap;
-     -webkit-box-pack: justify;
-     justify-content: space-between;
-     max-width: 117rem;
-     padding: 0px 2rem;
-     margin: 0px auto;
- }
- 
- @media screen and (min-width: 992px) {
-     .hdYpro {
-         flex-direction: row;
-         padding: 0px 1.5rem;
      }
  }
  
@@ -114,7 +86,7 @@
  
  .blGqRa>ul:first-child li {
      position: relative;
-     padding-right: 5.2rem;
+     padding-right: 2rem;
  }
  
  .hPqihs {
@@ -149,5 +121,200 @@
  }
  
  .hPqihs p {
+     text-align: center;
+ }
+ /* // diseño tarjeta logo */
+ 
+ .bnFaLw {
+     position: relative;
+     padding: 3.2rem 0px;
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .bnFaLw {
+         padding: 0px;
+     }
+ }
+ 
+ .hdYpro {
+     display: flex;
+     flex-flow: column wrap;
+     -webkit-box-pack: justify;
+     justify-content: space-between;
+     max-width: 117rem;
+     padding: 0px 2rem;
+     margin: 0px auto;
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .hdYpro {
+         flex-direction: row;
+         padding: 1px 1.5rem;
+     }
+ }
+ 
+ .iqrUHq {
+     position: absolute;
+     left: 6vw;
+     transform: rotate(-18deg);
+     z-index: -1;
+     width: 642px;
+     height: 295px;
+     bottom: 29vw;
+     opacity: 0.04;
+     background: rgb(52, 51, 72);
+     border-radius: 400px;
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .iqrUHq {
+         top: -19vw;
+         left: 44.4vw;
+         width: 1284px;
+         height: 590px;
+         transform: rotate(-31deg);
+         z-index: -1;
+     }
+ }
+ 
+ .kCogd {
+     width: 100%;
+ }
+ 
+ @media screen and (min-width: 768px) {
+     .kCogd {
+         width: 75%;
+         margin: 0px auto;
+     }
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .kCogd {
+         width: 50%;
+         margin: 0px;
+     }
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .dsSMAw {
+         padding: 10rem 0px 25rem;
+     }
+ }
+ 
+ .hCDXlO {
+     display: none;
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .hCDXlO {
+         display: block;
+         margin: 0px 0px 0.8rem;
+         font-size: 2rem;
+         letter-spacing: 1.18px;
+         color: rgb(106, 117, 135);
+     }
+ }
+ 
+ .jKPYKI {
+     margin: 0px 0px 2.6rem;
+     font-size: 2.2rem;
+     color: rgb(52, 51, 72);
+     text-align: center;
+     font-family: proxima-nova, sans-serif;
+     font-weight: 900;
+     font-style: normal;
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .jKPYKI {
+         margin: 0px 0px 4.6rem;
+         font-size: 3rem;
+         text-align: left;
+     }
+ }
+ 
+ .cPEkng {
+     margin: 0px 0px 3rem;
+     font-size: 1.1rem;
+     letter-spacing: 1px;
+     text-align: center;
+     color: rgb(106, 117, 135);
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .cPEkng {
+         font-size: 1.4rem;
+         text-align: left;
+     }
+ }
+ 
+ .hdKmNU {
+     width: 1rem;
+     height: auto;
+ }
+ 
+ .gyCxwS {
+     width: 1rem;
+     height: auto;
+ }
+ /* .hsmPs {
+     display: flex;
+     flex-wrap: wrap;
+     -webkit-box-pack: justify;
+     justify-content: space-between;
+     max-width: 2rem;
+     margin: 0px auto 6rem;
+ }
+  */
+ 
+ @media screen and (min-width: 992px) {
+     .hsmPs>a {
+         width: 1rem;
+         margin: 2px;
+     }
+ }
+ /* .hsmPs>a {
+     width: 1rem;
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .hsmPs>a {
+         width: 2rem;
+     }
+ } */
+ 
+ .fpdENk {
+     width: 100%;
+ }
+ 
+ @media screen and (min-width: 768px) {
+     .fpdENk {
+         width: 50%;
+         margin: 0px auto;
+     }
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .fpdENk {
+         margin: 0px;
+     }
+ }
+ 
+ .jEObfa {
+     display: block;
+     max-width: 100%;
+ }
+ 
+ @media screen and (min-width: 992px) {
+     .jEObfa {
+         position: absolute;
+         width: 654px;
+         bottom: 240px;
+         max-width: initial;
+     }
+ }
+ 
+ .texto {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-align: center;
  }
